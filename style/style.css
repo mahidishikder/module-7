@@ -23,9 +23,13 @@ nav{
 
 }
 
-nav h1{
+ nav h1{
   font-size: 34px;
   font-weight: 800;
+}
+
+h1 span{
+color: #005bea;
 }
 
 .btn{

@@ -258,8 +258,161 @@ nav h1{
   
 }
 
-.video-border span{
+.my-current-target{
+  max-width: 80%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 100px;
 }
+
+.card{
+ display: flex;
+ justify-content: center;
+}
+
+.box-one{
+  max-width: 364px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 16px;
+  margin: 0px 20px;
+}
+
+.box-one img{
+  width: 56px;
+  height: 56px;
+}
+
+.box-one h3{
+  font-size: 26px;
+  font-family: 800;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.box-one p{
+  font-size: 16px;
+  opacity: 70%;
+  color: #2b2c2f;
+  line-height: 25px;
+  margin-bottom: 24px;
+
+}
+.box-one a{
+  color: black;
+  font-weight: 700;
+}
+
+.card-1{
+  background-image: linear-gradient(to top, #00c6fb 15%, #005bea 80%);
+
+}
+.card-2{
+  background-image: linear-gradient(to top, #0ba360 15%, #3cba92 80%);
+
+}
+.card-3{
+  background-image: linear-gradient(to top, #7028e4 15%, #e5b2ca 90%);
+
+}
+
+.div-col{
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid rgb(56, 55, 55);
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.div-col img{
+  width: 108px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.div-col h3{
+  font-size: 26px;
+  font-family: 800;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.div-col p{
+  font-size: 16px;
+  opacity: 70%;
+  color: #2b2c2f;
+  line-height: 25px;
+  margin-bottom: 24px;
+}
+
+.div-col a{
+  color: black;
+  font-weight: 700;
+}
+
+.col-hi{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+
+}
+
+.support{
+  max-width: 80%;
+  background:url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+
+
+
+.input{
+  width: 600px;
+  height: 70px;
+  margin: 0px auto;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.but{
+  background-color: green;
+  padding: 22px 25px;
+  color: Black;
+  text-decoration: none;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+
+  
+}
+
+.but:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+}
+
+
+.hiii{
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
 
 
 

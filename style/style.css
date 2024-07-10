@@ -31,7 +31,8 @@ nav h1{
 .btn{
   border: none;
   background-color: white;
-  border: 1px solid rgb(60, 64, 71);
+  border: 2px solid ;
+  border-color: #005bea ;
   padding: 17px 24px;
   border-radius: 8px;
   font-size: 20px;
@@ -81,8 +82,8 @@ nav h1{
 
 .father p{
   color:#585a5e ;
-  font-size: 19px;
-  width: 890px;
+  font-size: 20px;
+  width: 950px;
   height: 60px;
   line-height: 35px;
   margin-bottom: 50px;
@@ -103,7 +104,7 @@ nav h1{
 /* main section design */
 
 .web-development{
-  max-width: 80%;
+  width: 80%;
   height: 1500px;
   background-color: #0D132105;
   margin: 0px auto;
@@ -136,8 +137,8 @@ nav h1{
 /* one */
 .section-one{
   background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
-  max-width: 85%;
-  margin: 32px auto;
+  width: 85%;
+  margin: 35px auto;
   height: 350px;
   display: flex;
   justify-content: space-between;
@@ -149,7 +150,7 @@ nav h1{
 
 
 .section-one-one{
-  max-width: 50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -176,7 +177,7 @@ nav h1{
 
 
 .section-one-two{
-  max-width: 30%;
+  width: 30%;
 }
 
 .section-one-two img,img{
@@ -219,7 +220,7 @@ nav h1{
 
 
 .section-two-two{
-  max-width: 30%;
+  width: 30%;
 }
 
 .section-two-two img{
@@ -245,18 +246,19 @@ nav h1{
 /* my inspiration */
 
 .video-border{
-  max-width: 70%;
-  margin: 50px auto;
-  height: 700px;
+  width: 80%;
+  margin: 100px auto 50px;
+  height: 900px;
   border: 1px solid #0D132133;
   padding: 40px;
   border-radius: 16px;
+
 
   
 }
 
 .my-current-target{
-  max-width: 80%;
+  width: 80%;
   height: auto;
   margin: 0px auto;
   margin-bottom: 100px;
@@ -265,10 +267,11 @@ nav h1{
 .card{
  display: flex;
  justify-content: center;
+ margin-top: 100px;
 }
 
 .box-one{
-  max-width: 364px;
+  width: 390px;
   height: 300px;
   padding: 40px;
   border-radius: 16px;
@@ -290,7 +293,7 @@ nav h1{
 .box-one p{
   font-size: 16px;
   opacity: 70%;
-  color: #2b2c2f;
+  color: #0f0f10;
   line-height: 25px;
   margin-bottom: 24px;
 
@@ -359,8 +362,12 @@ nav h1{
 
 }
 
+.support-boss{
+
+}
+
 .support{
-  max-width: 80%;
+  width: 80%;
   background:url(../assets/handshake.jpg);
   background-position: center;
   background-size: cover;
@@ -434,12 +441,36 @@ nav h1{
 }
 
 
+.title1{
+  font-family: 800;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+
+}
+
+.p2{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+  width: 920px;
+  height: 60px;
+  margin: 0px auto;
+  line-height: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
 
 
 .media img{
   width: 36px;
   height: 36px;
   margin: 0px 20px;
+  cursor: pointer;
 }
 
 
